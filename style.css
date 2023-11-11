@@ -1,0 +1,125 @@
+.circular{
+   
+    border-radius: 80%;
+   
+}
+.circular-image{
+    border-radius: 100%;
+
+}
+.font1{
+    font-size: 20px;
+    font-weight: 400;  
+}
+#int{
+    font-weight: normal;
+    font-size: xx-large;
+}
+.int_size{
+    font-weight: 900;
+    font-size: medium;
+}
+
+p.heading{
+    display: flex;
+    border-block-start: solid;
+    border-color:blueviolet ;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+
+.split{
+     height: 100%;
+     width: 50%;
+     position: fixed;
+     z-index: 0;
+     top: 20%;
+     overflow-x: visible;
+     padding-top: 50px;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  p.p{
+    text-align: center;
+    font-size: 1em;
+    padding-top: 690px;
+  }
+  
+  
+  p#edu_right{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  p#certificate{
+    font-weight: bold;
+    font-size: medium;
+  
+  }
+  p#school{
+    font-size: medium;
+    font-weight: lighter;
+    
+  }
+  p#year{
+    font-size: medium;
+    font-weight: lighter;
+  }
+  .skill-container {
+    margin-bottom: 20px;
+}
+
+.skill-type {
+    display: inline-block;
+    width: 120px;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: 400px;
+    height: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.skill-value {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+}
+p#exp{
+  font-size: large;
+  font-weight: 900;
+}
+@media screen and (max-width: 800px) {
+  body {
+      font-size: 14px; /* Adjust the styles for smaller screens */
+  }
+
+  p {
+      color: black; /* Adjust the styles for paragraphs on smaller screens */
+  }
+}
